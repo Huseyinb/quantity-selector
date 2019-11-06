@@ -23,11 +23,18 @@ For everyone
 
 
 Methods
+
 -text: Add a main text
+
 -textcolor: change main text color
+
 -subText: Add a subtext
+
 -subtextcolor: change subtext color
+
 -setDefaultValue: You can set default value
+
 -setLowLimit: You can set minimum limit for selector
+
 -setTopLimit: You can set maximum limit for selector
 
