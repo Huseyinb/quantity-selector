@@ -38,3 +38,6 @@ Methods
 
 -setTopLimit: You can set maximum limit for selector
 
+
+İf you want to value of selector you just write this code  $('adult').qVal();
+
