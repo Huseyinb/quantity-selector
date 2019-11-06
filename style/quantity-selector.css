@@ -1,0 +1,129 @@
+
+        .quantity-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+
+        .show {
+            display: block !important;
+        }
+
+        .quantity-box {
+            position: block;
+            display: none;
+            word-wrap: break-word;
+            width: 350px;
+            height: 100%;
+            border: 1px solid #ffa680;
+            background-color: #fff;
+            word-break: break-all;
+            border-radius: 5px;
+        }
+
+        .quantity-box ul {
+            word-wrap: break-word;
+            padding: 0.5em 0.5em 0.5em 0.5em;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .quantity-box li {
+            display: block;
+            margin: 1em 1em 1em 0em;
+            height: 40px;
+            width: 100%;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .quantity {
+            float: right;
+            vertical-align: middle;
+            height: 100%;
+        }
+
+        .quantity-box p {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+            font-size: 16px;
+            color: #484848;
+        }
+
+        .quantity-box .quantity-text {
+            font-size: 20px;
+            float: left;
+            width: 100%;
+
+            font-weight: bold;
+        }
+
+        .quantity-subtext {
+            color: #484848;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+
+        .text-box {
+            display: inline;
+            float: left;
+            top: 50%;
+        }
+
+        .quantity-box p {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+            font-size: 16px;
+            color: #484848;
+        }
+
+        .qty-box {
+            display: inline;
+            float: right;
+            vertical-align: middle;
+            height: 100%;
+        }
+
+        .qty-box span {
+
+            color: #ff7033;
+            font-family: sans-serif;
+            float: right;
+            line-height: 40px;
+            text-align: center;
+            width: calc(150px/3);
+            -webkit-font-smoothing: antialiased;
+
+        }
+
+        .qty-box .qty {
+            color: #484848;
+        }
+
+        .qty-box .dec,
+        .inc {
+            border: 0.5px solid #ff7033;
+            border-radius: 5px;
+            font-weight: bold;
+            height: 100%;
+        }
+
+        .qty-disabled {
+            border: 0.5px solid #ffc9b3 !important;
+            color: #ffc9b3 !important;
+            cursor: default !important;
+        }
+
+        .dec:hover,
+        .inc:hover {
+            cursor: pointer;
+        }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="style/quantity-selector.css"/>
+</head>
+
+<body>
+
+    <div class="deneme"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="scripts/quantity-selector.js"></script>
+    <script>
+        $('.deneme').createQauntity({
+            inputClass: 'deneme',
+            id: ["adult", "child", "infant"],
+        });
+
+        $('#adult').quantity({
+            text: "Adult",
+            textcolor: "#FF0000",
+            subtextcolor: "#c1c1c1",
+            setDefaultValue: "2",
+            setLowLimit: "0",
+            setTopLimit: "10",
+        });
+        $('#child').quantity({
+            text: "Child",
+            subText: "Yaş Aralığı 2-12",
+            setDefaultValue: "0",
+            setLowLimit: "0",
+            setTopLimit: "5",
+        });
+        $('#infant').quantity({
+            text: "Infant",
+            subText: "Yaş Aralığı 0-2",
+            setDefaultValue: "0",
+            setLowLimit: "0",
+            setTopLimit: "5",
+        });
+    </script>
+</body>
+
+</html>
