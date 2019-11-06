@@ -1,6 +1,12 @@
 # quantity-selector
+
+This selector easy to use
+
+# Step 1
+
 Just add a division on html
 
+# Step 2
 $('.deneme').createQauntity({
             inputClass: 'deneme',
             id: ["adult", "child", "infant"],
@@ -8,6 +14,7 @@ $('.deneme').createQauntity({
         
 You can add class yo input and you can add quantities. 
 
+# Step 3
 Than you just add options these quantities like:
 
 $('#adult').quantity({
@@ -19,25 +26,24 @@ $('#adult').quantity({
             setTopLimit: "10",
         });
               
-For everyone
+For everyone. You can change most of options.
 
+Methods using:
 
-Methods
+-text: Add a main text  e.('Main Text')
 
--text: Add a main text
+-textcolor: change main text color   e.('#fff')
 
--textcolor: change main text color
+-subText: Add a subtext    e.('Sub Text')
 
--subText: Add a subtext
+-subtextcolor: change subtext color   e.('#000')
 
--subtextcolor: change subtext color
+-setDefaultValue: You can set default value   e.('10')
 
--setDefaultValue: You can set default value
+-setLowLimit: You can set minimum limit for selector  e.('0')
 
--setLowLimit: You can set minimum limit for selector
+-setTopLimit: You can set maximum limit for selector  e.('20')
 
--setTopLimit: You can set maximum limit for selector
-
-
+# Step 4 (optional)
 İf you want to value of selector you just write this code  $('adult').qVal();
 
