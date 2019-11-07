@@ -47,3 +47,7 @@ Methods using:
 # Step 4 (optional)
 İf you want to value of selector you just write this code  $('adult').qVal();
 
+# Example
+![ss](https://user-images.githubusercontent.com/5729779/68370677-1afbae00-014e-11ea-9e2c-e9b27793e495.PNG)
+
+
